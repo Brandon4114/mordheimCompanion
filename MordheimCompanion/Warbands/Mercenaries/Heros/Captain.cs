@@ -1,19 +1,22 @@
 ﻿
 namespace MordheimCompanion.Warbands.Mercenaries.Heros;
 
-public class Captain(string type) : IHero
+public class Captain : IHero
 {
     public string Name { get; set; } = "Captain";
-    public string Type { get; set; } = type;
+    public string Type { get; set; }
     public string Description { get; set; } = "Mercenary Captain";
     public int Experiance { get; set; } = 20;
 
-    public IHero.Skills GetSkills()
+    public Skills Skills { get; set; }
+
+    public Captain(string type)
     {
-        return this.
+        Type = type;
+        setSkills(type);
     }
 
-    public void SetSkills(IHero.Skills value)
+    private void setSkills(string type)
     {
         switch (type)
         {

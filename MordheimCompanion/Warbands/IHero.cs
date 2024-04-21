@@ -7,17 +7,16 @@
         public string Description { get; set; }
         public int Experiance { get; set; }
 
-        Skills GetSkills();
-        void SetSkills(Skills value);
+        public Skills Skills { get; set; }
 
-        public class Skills
-        {
-            private bool combat = false;
-            private bool shooting = false;
-            private bool academic = false;
-            private bool strength = false;
-            private bool speed = false;
+    }
 
-        }
+    public class Skills
+    {
+        private bool combat = false;
+        private bool shooting = false;
+        private bool academic = false;
+        private bool strength = false;
+        private bool speed = false;
     }
 }
