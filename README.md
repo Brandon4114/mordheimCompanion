@@ -9,3 +9,9 @@ During the game the user can select a unit and it will display all the actions t
 The user can then add how much gold is added to their company after a battle and use the shop to buy more attachments or units
 
 The user may have multiple armies and use a QR code to view another players army
+
+
+#Warbands
+Warsbands consist of heros and henchmen, each with their own unique characters, skills, and items that can be equipped. Evey warband has a limit on how many of each unit type they can have.
+
+Players start with 500 gold they can use to create their first warband and equip them with items from the store. At the end of each battle players will receive morw gold that can be used to purchase more units or better equipment.
